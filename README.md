@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+#Тестовое задане
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Тестовое задание на позицию Frontend Developer
+"Выполненное тестовое задание необходимо развернуть на любом доступном
+хостинге (например, github pages, netlify, firebase) и проверить его работоспособность".
+Также нужно предоставить исходный код решения в виде ссылки на гитхаб.
+Реализовать “Виртуальный банкомат”:
+Необходимо сделать программу, которая будет принимать на вход некоторое значение
+и выводить релевантное количество купюр в штуках для каждого типа (купюры 5000;
+2000; 1000; 500; 200; 100; 50) и выводить остаток (рубли и копейки).
+- Купюры в банкомате должны расходоваться в равной пропорции и
+заканчиваться максимально близко друг к другу;
+- Банкомат выдает купюры до тех пор, пока это станет невозможным (остаток
+будет больше 50 рублей);
+- Банкомат должен обладать Полем ввода и Полями вывода инфо, которые
+показывают количество выдаваемых купюр и остаток;
+- В графическом окне должна быть кнопка для вызова справки, в которой будет
+информация сколько купюр каждого вида осталось;
+- Визуально программа представляет собой интерфейс, приближенный к
+реальному банкомату, где сумму можно вводить как в текстовое поле вручную
+как с клавиатуры (любые символы кроме цифр и запятой игнорируются), так и
+через кнопки интерфейса с цифрами от 0 до 9 и запятой - визуально этот набор
+кнопок выглядит как нампад;
+- Вывод суммы из банкомата происходит или при нажатии на кнопку “Enter” или по
+нажатию кнопки интерфейса “Выдача”;
+- Необходимо выводить кнопки с набором купюр (варианты) и при нажатии на
+одну из этих кнопок перезапускать программу.
+1. (купюры 5000= 100; 2000= 400; 1000= 1000; 500= 3000; 200= 5000; 100= 8000;
+50= 10000)
+2. (купюры 5000= 476; 2000= 345; 1000= 6741; 500= 4362; 200= 234; 100= 1643; 50=
+3450)
+3. (купюры 5000= 234; 2000= 678; 1000= 845; 500= 2451; 200= 9654; 100= 2345;
+50=234)
+4. (купюры 5000= 546; 2000= 562; 1000= 2543; 500= 4365; 200= 2154; 100= 124; 50=
+342)
+5. (купюры 5000= 2732; 2000= 347; 1000= 479; 500= 7556; 200= 3296; 100= 1257;
+50= 3854)
+6. (купюры 5000= 73; 2000= 147; 1000= 279; 500= 356; 200= 696; 100= 857; 50= 854)
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+FAQ:
+● На каком Языке и Фреймворке выполнять тестовое задание: JavaScript /
+TypeScript, React.
+● В какие сроки надо выполнить тестовое задание: задание необходимо
+выполнить за 3 календарных дня, если задание было получено в пятницу, то в
+понедельник его нужно отправить
