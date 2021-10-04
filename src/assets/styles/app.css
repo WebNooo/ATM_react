@@ -11,6 +11,7 @@ html, body, #root {
 body {
   background-color: #d9d9d9;
   font-family: Tahoma, sans-serif;
+  color: #4b4b4b;
 }
 
 #root {
@@ -83,7 +84,7 @@ body {
 }
 .screen-display_content .body {
   flex: 1;
-  padding: 20px;
+  padding: 20px 20px 0 20px;
   display: flex;
   align-items: center;
 }
@@ -104,9 +105,9 @@ body {
   border-bottom: 1px solid #b9b9b9;
 }
 .screen-display_content .footer {
+  padding: 5px 20px;
   font-size: 14px;
   height: 30px;
-  padding: 5px 20px;
   color: #3e5e91;
 }
 .screen-controls {
@@ -120,11 +121,6 @@ body {
 .screen-controls.right {
   align-items: flex-start;
 }
-.screen-controls_button {
-  width: 80px;
-  height: 60px;
-  margin: 15px;
-}
 
 .controls {
   display: flex;
@@ -136,21 +132,9 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-.controls-numpad_button {
-  margin: 5px;
-  width: 70px;
-  height: 30px;
-}
-.controls-action_button {
-  justify-content: flex-start;
-  padding-left: 20px;
-  margin: 10px;
-  width: 150px;
-  height: 40px;
-}
 
 .button {
-  background: #939393;
+  background: #a6a6a6;
   border-radius: 3px;
   border: 1px solid #6c6c6c;
   box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.2);

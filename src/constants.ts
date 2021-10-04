@@ -1,6 +1,6 @@
-import { cashType } from './types'
+import { banknotesType } from './types'
 
-export const KITS: cashType[] = [
+export const KITS: banknotesType[] = [
   {
     5000: 100,
     2000: 400,
@@ -63,4 +63,10 @@ export const NUMPAD_BUTTON_STYLE = {
   height: 30
 }
 
-export const NUMPAD_BUTTONS = [7, 8, 9, 4, 5, 6, 1, 2, 3, ',', 0]
+export const NUMPAD_BUTTONS = [7, 8, 9, 4, 5, 6, 1, 2, 3, ',', 0, '<']
+
+export const SCREEN_BUTTON_STYLE = {
+  width: 80,
+  height: 60,
+  margin: 15
+}

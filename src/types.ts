@@ -1,13 +1,25 @@
-export interface cashType {
-  5000: number;
-  2000: number;
-  1000: number;
-  500: number;
-  200: number;
-  100: number;
-  50: number;
+export interface banknotesType {
+  [key: number]: number;
 }
 
-export type stateType = {
-  cash: cashType | null;
-};
+export interface messageType {
+  text?: string;
+  timeout?: number;
+}
+
+export interface calculateBanknotesType {
+  banknotes?: banknotesType;
+  amount?: number;
+  remainder?: number;
+}
+
+export type screenTypes = 'main' | 'help';
+
+export interface stateType {
+  banknotes: banknotesType;
+  amountBanknotes: number;
+  calculateBanknotes: calculateBanknotesType;
+  message: messageType;
+  screen: screenTypes;
+  value: string;
+}
